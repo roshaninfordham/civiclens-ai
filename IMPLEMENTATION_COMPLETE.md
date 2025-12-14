@@ -183,7 +183,7 @@ Open it in your browser right now!
 ┌─────────────────────────────────────────────────────────────────┐
 │ 5. Call Gradient AI Agent:                                      │
 │    POST https://your-gradient-endpoint                          │
-│    Authorization: Bearer lnLStSh5H7g1hIwa4aFhjYezT7fVCCH5     │
+│    Authorization: Bearer <YOUR_GRADIENT_AI_AGENT_KEY>           │
 │    Body: {                                                     │
 │      messages: [                                               │
 │        { role: "system", content: AGENT_SYSTEM_PROMPT },      │
@@ -232,24 +232,24 @@ Open it in your browser right now!
 
 ---
 
-## 🔑 API Keys (Already Configured!)
+## 🔑 API Keys (Configure in `.env.local`)
 
-All your API keys are in `.env.local`:
+Add your API keys to `.env.local` before running the app:
 
 ✅ **DigitalOcean Gradient AI:**
-- Key: `lnLStSh5H7g1hIwa4aFhjYezT7fVCCH5`
+- Key: `<YOUR_GRADIENT_AI_AGENT_KEY>`
 - Endpoint: ⚠️ **YOU NEED TO UPDATE THIS**
 
 ✅ **NYC Open Data:**
-- App Token: `T0DRHbSn7Xx1eQV0CF5FfciTm`
-- Secret: `m5zyww6JWj8H6d23q4HiQQ7cQsv0pY0mt57i`
+- App Token: `<YOUR_NYC_OPEN_DATA_APP_TOKEN>`
+- Secret: `<YOUR_NYC_OPEN_DATA_SECRET>`
 
 ✅ **US Census (Geocoding):**
-- Key: `b462f9b860437a8ddf883d01f93fef0af467a1f2`
+- Key: `<YOUR_CENSUS_API_KEY>`
 
 ✅ **NOAA Weather:**
-- User-Agent: `civiclensai`
-- Email: `rsusny@gmail.com`
+- User-Agent: `<YOUR_NOAA_USER_AGENT>`
+- Email: `<YOUR_NOAA_CONTACT_EMAIL>`
 
 ✅ **FEMA:**
 - No key needed (public API)
