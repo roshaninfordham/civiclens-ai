@@ -59,18 +59,15 @@ By analyzing real-time data from:
 
 2. **Configure environment variables:**
    
-   The `.env.local` file is already created with your API keys. **Important:** Update the Gradient AI endpoint:
+   The `.env.local` file should store your API keys. **Important:** Update the Gradient AI endpoint and provide your own secrets:
    
    ```bash
-   # Open .env.local and update this line:
+   # Open .env.local and update these lines:
+   GRADIENT_AI_AGENT_KEY=your-gradient-ai-key
    GRADIENT_AI_AGENT_ENDPOINT=https://your-actual-gradient-endpoint.digitalocean.com
    ```
    
-   Your current keys (already in `.env.local`):
-   - ✅ Gradient AI Key: `lnLStSh5H7g1hIwa4aFhjYezT7fVCCH5`
-   - ✅ NYC Open Data Token: `T0DRHbSn7Xx1eQV0CF5FfciTm`
-   - ✅ NOAA User-Agent: `civiclensai`
-   - ✅ Census API Key: `b462f9b860437a8ddf883d01f93fef0af467a1f2`
+   Replace any placeholder values in `.env.local` with your own secrets (Gradient AI key, NYC Open Data token, NOAA user agent, Census API key, etc.).
 
 3. **Run the development server:**
    ```bash
@@ -101,7 +98,7 @@ By analyzing real-time data from:
 
 The agent endpoint is configured in `.env.local`:
 ```
-GRADIENT_AI_AGENT_KEY=lnLStSh5H7g1hIwa4aFhjYezT7fVCCH5
+GRADIENT_AI_AGENT_KEY=your-gradient-ai-key
 GRADIENT_AI_AGENT_ENDPOINT=https://your-gradient-endpoint.digitalocean.com
 ```
 

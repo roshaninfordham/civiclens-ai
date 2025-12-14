@@ -4,9 +4,9 @@
 
 You need to update the Gradient AI endpoint URL in the `.env.local` file.
 
-### Current Configuration:
+### Current Configuration (replace with your own values):
 ```
-GRADIENT_AI_AGENT_KEY=lnLStSh5H7g1hIwa4aFhjYezT7fVCCH5
+GRADIENT_AI_AGENT_KEY=your-gradient-ai-key
 GRADIENT_AI_AGENT_ENDPOINT=https://your-gradient-endpoint.digitalocean.com
 ```
 
